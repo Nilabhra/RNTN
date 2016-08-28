@@ -1,10 +1,8 @@
-I used a script from the Bekerly parser to read the ptb files.
+Implementation of a Recursive Neural Tensor Network using only python and numpy. This implentation follows the proposed model by Socher et al. in the paper *Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank*
 Dependencies:
 [1] python v2.7.x
 [2] numpy v1.x
 
-Notes: I did not have access to a GPU hence could not implement
-any part of the assignment in CUDA. Originally I wanted to use
-TensorFlow but since I had to derive the gradients by hand as
-part of the assignment, I decided to code everything using numpy.
-I have only made provisions to compute the fine grained accuracy.
+The optimizer implented to train the neural network is an AdaGrad optimizer as described in the paper. 
+
+For usage, please check the ipython notebook.
